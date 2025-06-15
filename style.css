@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('luxury-white-and-gold-marble-texture-background-for-creating-an-abstract-and-minimalist-look-in-any-space-rich-and-luxurious-its-marble-veining-adds-beauty-to-any-decor-photo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.header{
+    background-color: rgb(107, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 4%;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.navbar .nav-link{
+    text-decoration: none;
+    padding: 5px 80px;
+    margin: 0 5px; 
+    font-size: .9rem;
+    font-weight: 500;
+    color: #ffffff;
+    transition: .3s linear;
+}
+.navbar .nav-link:hover{
+    background-color: rgb(228, 210, 210);
+    color: rgb(107, 72, 72);
+    box-shadow: 5px 5px 5px #000;
+    border-radius: 20px;
+    transform: scale(1);
+}
+img{
+    position: absolute;
+    width: 50%;
+    height: 85%;
+    top: 20px;
+    right: 0;
+    border-radius: 5px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container{
+    padding: 2% 4%;
+    max-width: 400px;
+}
+.container p{
+    background-color: rgb(107, 72, 72);
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+
+}
+
+h2{
+    font-size: 2.8rem;
+}
+h2 span{
+    color: rgb(107, 72, 72);
+}
+p {
+    font-size: .9rem;
+    color: #444;
+    width: 90%;
+}
+video {
+    width:150%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.footer {
+    margin-top: 20px;
+    padding: 1%;
+    background-color: rgb(107, 72, 72);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.footer p {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}

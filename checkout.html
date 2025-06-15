@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnitures Palace | Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Furnitures Palace</a>
+        <nav class="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="categories.html" class="nav-link">Categories</a>
+            <a href="contact.html" class="nav-link">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Checkout Form</h2>
+            </div>
+            <input type="hidden" name="access_key" value="1cebba12-272c-434c-8f93-9daf05d82787">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="address" placeholder="Your Address" class="contact-inputs" required></textarea>
+            <input type="text" name="card_number" placeholder="Card Number" class="contact-inputs" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy;2025; Designed by <span class="designer"> Group 5 </span></p>
+    </div>
+</body>
+</html>
